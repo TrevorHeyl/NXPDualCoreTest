@@ -12,11 +12,13 @@ This demo is based on the included exmaples from the SDK for the LPC55S69.
 
 Useful references to read to help understand dual core debugging:
 [NXP Dual core debugging](https://www.nxp.com/docs/en/application-note/AN12358.pdf)
+
 [NXP dual core debugging](https://community.nxp.com/community/mcuxpresso/mcuxpresso-ide/blog/2019/02/26/lpc55xx-multicore-applications-with-mcuxpresso-ide)
+
 [Silicon A1 rev bug](https://community.nxp.com/thread/515129)
 
 
-*** Issues with debugging ***
+***Issues with debugging***
 _Note these things:_
 * You must prepare the EVK in CMSIS-DAP debug mode and use the Debug Link (P6) USB connector - (use LPCScrypt)
 * You must have both projects in the workspace, compile core1 then core 0, core 0 will include core 1
