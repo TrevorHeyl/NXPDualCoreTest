@@ -11,6 +11,7 @@ Sometinmes I had to restart the IDE to get the Redlink Server to run properly. B
 This demo is based on the included exmaples from the SDK for the LPC55S69. 
 
 Useful references to read to help understand dual core debugging:
+
 [NXP Dual core debugging](https://www.nxp.com/docs/en/application-note/AN12358.pdf)
 
 [NXP dual core debugging](https://community.nxp.com/community/mcuxpresso/mcuxpresso-ide/blog/2019/02/26/lpc55xx-multicore-applications-with-mcuxpresso-ide)
