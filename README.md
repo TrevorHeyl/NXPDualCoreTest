@@ -1,9 +1,9 @@
 # NXPDualCoreTest
-***Assesing LPCExpresso for dual core debuggin on the LPC55S698***
+***Assesing LPCExpresso for dual core debuggin on the LPC55S69***
 
 This project implements LED flashing to demonstrate the multicore debugging on the MXP LPC55S69. The LPC55S69 EVK is used.
 
-Each core flashes a different colour LED, the main core (core 0) flashes the REd led of the RGB LED at a specific rate and core1 the Green LED at a different rate. The ocerlap allows the LED to appear orange at times.
+Each core flashes a different colour LED, the main core (core 0) flashes the Red led of the RGB LED at a specific rate and core1 the Green LED at a different rate. The ocerlap allows the LED to appear orange at times.
 
 I found the debuggint o be a little bit unreliable. After consulting the forum I discovered there is a bug in Rev A of the LPC55S69 that needs the flash driver reset hanlding to be changed (see below)
 Sometinmes I had to restart the IDE to get the Redlink Server to run properly. But once running you have a very nice capability to for simulataneously debuggin both cores, you can set breakpoint sin any core ans single step through
