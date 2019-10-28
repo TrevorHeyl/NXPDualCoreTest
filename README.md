@@ -10,13 +10,13 @@ Sometimes I had to restart the IDE to get the Redlink Server to run properly. Bu
 
 The LPC55S69 includes 2 X M33 cores, core 0 is the master and is reponsible for setting up of the core1 code in SRAM and releasing the core out of reset. I could not debug both cores with an external debugger, since the external tools only ever showed one MCU on the JTAG chain and no dual cores. 
 
-This demo is based on the included exmaples from the SDK for the LPC55S69. 
+This demo is based on the included examples from the SDK for the LPC55S69. 
 
 Useful references to read to help understand dual core debugging:
 
-[NXP Dual core debugging](https://www.nxp.com/docs/en/application-note/AN12358.pdf)
+[NXP Dual core debugging 1](https://www.nxp.com/docs/en/application-note/AN12358.pdf)
 
-[NXP dual core debugging](https://community.nxp.com/community/mcuxpresso/mcuxpresso-ide/blog/2019/02/26/lpc55xx-multicore-applications-with-mcuxpresso-ide)
+[NXP Dual core debugging 2](https://community.nxp.com/community/mcuxpresso/mcuxpresso-ide/blog/2019/02/26/lpc55xx-multicore-applications-with-mcuxpresso-ide)
 
 [Silicon A1 rev bug](https://community.nxp.com/thread/515129)
 
