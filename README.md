@@ -22,11 +22,11 @@ _Note these things:_
 * You must have both projects in the workspace, compile core1 then core 0, core 0 will include core 1
 * This demo uses the MCMGR mode to start the second core
 * Debuggin can be a little bit unreliable. Make sure you set core 0 Debug configuration as follows: 
-** Select Core 0 project
-** Select Run-> Debug configurartions - Choose the LinkServer Debugger Tab
-** Scroll down to "Flash driver resert handling and choose "VECTRESET"
-** Use the Quickstart panel to launch the Debug, forst select core 0 project
-** if you get errors after launching the debug, you ay need to force the core to 0, elect Run-> Debug configurartions - Choose the LinkServer Debugger Tab, scroll down to Advanced settings and in the  "Override core index" type 0
+ * Select Core 0 project
+ * Select Run-> Debug configurartions - Choose the LinkServer Debugger Tab
+ * Scroll down to "Flash driver resert handling and choose "VECTRESET"
+ * Use the Quickstart panel to launch the Debug, forst select core 0 project
+ * if you get errors after launching the debug, you ay need to force the core to 0, elect Run-> Debug configurartions - Choose the LinkServer Debugger Tab, scroll down to Advanced settings and in the  "Override core index" type 0
 
 
 
