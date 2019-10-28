@@ -6,7 +6,7 @@ This project implements LED flashing to demonstrate the multicore debugging on t
 Each core flashes a different colour LED, the main core (core 0) flashes the Red led of the RGB LED at a specific rate and core1 the Green LED at a different rate. The overlap allows the LED to appear orange at times.
 
 I found the debuggin to be a little bit unreliable. After consulting the forum I discovered there is a bug in Rev A1 of the LPC55S69 that needs the flash driver reset hanlding to be changed (see below)
-Sometimes I had to restart the IDE to get the Redlink Server to run properly. But once running you have a very nice capability to  simulataneously debug both cores, you can set breakpoints in any core and single step through
+Sometimes I had to restart the IDE to get the Redlink Server to run properly. But once running you have a very nice capability to  simultaneously debug both cores, you can set breakpoints in any core and single step through
 
 The LPC55S69 includes 2 X M33 cores, core 0 is the master and is reponsible for setting up of the core1 code in SRAM and releasing the core out of reset. I could not debug both cores with an external debugger, since the external tools only ever showed one MCU on the JTAG chain and no dual cores. 
 
