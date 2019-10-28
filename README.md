@@ -1,7 +1,7 @@
 # NXPDualCoreTest
 ***Assesing LPCExpresso for dual core debugging on the LPC55S69***
 
-This project implements LED flashing to demonstrate the multicore debugging on the MXP LPC55S69. The LPC55S69 EVK is used.
+This project implements LED flashing to demonstrate the multicore debugging on the NXP LPC55S69. The LPC55S69 EVK is used.
 
 Each core flashes a different colour LED, the main core (core 0) flashes the Red led of the RGB LED at a specific rate and core1 the Green LED at a different rate. The overlap allows the LED to appear orange at times.
 
