@@ -1,0 +1,5 @@
+fsl_clock.h:781:20:CLOCK_EnableClock	24	static
+fsl_gpio.h:211:20:GPIO_PortToggle	24	static
+hello_world_core1.c:32:6:delay	16	static
+hello_world_core1.c:44:6:SystemInitHook	8	static
+hello_world_core1.c:56:5:main	24	static

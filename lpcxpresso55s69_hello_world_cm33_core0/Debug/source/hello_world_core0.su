@@ -1,0 +1,4 @@
+fsl_gpio.h:211:20:GPIO_PortToggle	24	static
+hello_world_core0.c:67:6:delay	16	static
+hello_world_core0.c:77:6:SystemInitHook	8	static
+hello_world_core0.c:89:5:main	16	static
